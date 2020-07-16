@@ -354,35 +354,20 @@ a:any-link {
 
   
 @media only screen and (max-width: 414px) {
-  .header {
-    width: 100%;
-    max-width: 80%;
-  }
-  .headerlogo {
-    max-width: 50%
-  }
-  .encabezado {
-    max-width: 80%;
-    align-content: center;
-  }
-  .presentación {
-    flex-direction: column;
-    align-content: center;
-  }
-  h3, h2, h1, h4, h5 {
-    font-size: 14pt;
+  header {
+    width: 90%;
+    max-width: 100%;
   }
 
     .box1 {
       width: 90%;
     }
   
-    .project {
+    .project, .project2 {
       flex-direction: column;
     }
   
     .projectimagen {
-      width: 100%;
       max-width: 50%;
     }
     
@@ -391,13 +376,13 @@ a:any-link {
       margin-left: 0px;
     }
     footer {
-    flex-direction: column;
-    width: 80%;
-    height: 200px;
-    max-width: 50%;
+    width: 90%;
+    }
+
+    .infofooter {
+      flex-direction: column;
     }
 }
-
 
 h3 {
     font-size: 15px;
